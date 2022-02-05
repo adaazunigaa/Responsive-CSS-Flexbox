@@ -37,20 +37,28 @@ div:nth-of-type(5) {
 }
 
 
-/* main {
+
+/* FLEX  SHORTHAND*/
+ main {
     width: 80%;
     margin: 0 auto;
     border: 5px solid black;
     height: 500px;
     display: flex;
 }
+
 main .sidebar {
     background-color: #6930c3;
+
+    /* Three values: flex-grow | flex-shrink | flex-basis */
     flex:1 2 300px;
 }
+
 main .maincontent {
     background-color: #80ffdb;
+
+    /* Three values: flex-grow | flex-shrink | flex-basis */
     flex: 2 1 800px;
 }
- */
+
 
