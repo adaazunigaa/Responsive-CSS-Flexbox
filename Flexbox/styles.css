@@ -10,13 +10,22 @@ h1 {
     height: 500px;
     margin: 0 auto;
     border: 5px solid #ffafcc;
-    /* FLEXBOX */
+    /* FLEXBOX 
+        FLEX-DIRECTION*/
     display: flex;
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
     /* Flex direction ROW is the defaul */
-    /* flex-direction: row; */
-    flex-direction: row-reverse;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+
+
+    /* JUSTIFY-CONTETN */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    justify-content: space-around;
+
+
 
 }
 
