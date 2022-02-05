@@ -10,20 +10,27 @@ h1 {
     height: 500px;
     margin: 0 auto;
     border: 5px solid #ffafcc;
-    /* FLEXBOX 
-        FLEX-DIRECTION*/
+
+    /**** FLEXBOX FLEX-DIRECTION*****/
     display: flex;
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
     /* Flex direction ROW is the defaul */
-    flex-direction: row;
+    flex-direction: column;
     /* flex-direction: row-reverse; */
 
 
-    /* JUSTIFY-CONTETN */
+    /********** JUSTIFY-CONTETN *********/
     /* justify-content: space-between; */
     /* justify-content: center; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: flex-start;
+
+
+    /********** FLEX-WRAP & WRAP-REVERSE *********/
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
 
 
 
@@ -32,5 +39,6 @@ h1 {
 #container div{
     width: 200px;
     height: 200px;
+    text-align: center; 
 }
 
