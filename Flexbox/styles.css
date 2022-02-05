@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #cdb4db;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #ffafcc;
+    /* FLEXBOX */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* Flex direction ROW is the defaul */
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+}
+
